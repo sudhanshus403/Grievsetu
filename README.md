@@ -3,6 +3,7 @@
 **AI-Powered Citizen Grievance Management System**
 
 GrievSetu is a full-stack web application that enables citizens to submit grievances (with text and images) and uses deep learning models to automatically classify, prioritize, and route them to the appropriate government departments.
+An AI-powered grievance management system designed to address the growing challenges associated with civic complaint redressal in India.
 
 ## Architecture
 
@@ -73,3 +74,6 @@ Harsh Varma
 Kushal Gupta
 Aman Rathore
 Sudhanshu Kumar
+
+## Mentor
+Dr. Pranshu CBS Negi
