@@ -1,0 +1,53 @@
+# ── Dependencies ──
+node_modules/
+
+# ── Build output ──
+dist/
+dist-ssr/
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+
+# ── Environment variables ──
+.env
+
+# ── Database files ──
+*.db
+*.db.bak
+*.sqlite3
+
+# ── Uploads (user data) ──
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ── ML Models (tracked via Git LFS or downloaded) ──
+# Uncomment if using Git LFS instead of committing directly:
+# *.keras
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+
+# ── Logs ──
+*.log
+npm-debug.log*
+
+# ── Misc ──
+*.local
+*.reload
+.pytest_cache/

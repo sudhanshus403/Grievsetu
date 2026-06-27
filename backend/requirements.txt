@@ -1,0 +1,21 @@
+# GrievSetu Backend Dependencies
+fastapi==0.131.0
+uvicorn==0.41.0
+SQLAlchemy==2.0.48
+PyMySQL==1.1.2
+pydantic==2.12.5
+python-dotenv==1.2.1
+PyJWT==2.12.1
+python-jose==3.5.0
+email-validator==2.3.0
+python-multipart==0.0.20
+openpyxl==3.1.5
+pandas==2.3.3
+bcrypt==5.0.0
+requests==2.32.5
+
+# TensorFlow — only needed if running models locally (not via model-service)
+tensorflow==2.20.0
+numpy==2.0.2
+scikit-learn==1.6.1
+pillow==11.3.0
